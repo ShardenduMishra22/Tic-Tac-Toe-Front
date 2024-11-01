@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 import { Card, CardContent } from "./components/ui/card";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://tic-tac-toe-back-9nx8.onrender.com");
 
 const App = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
